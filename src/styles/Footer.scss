@@ -1,0 +1,21 @@
+footer{
+    margin-top: 96px;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    flex-direction: column;
+    padding: 50px 0 ;
+    ul{
+        max-width: 500px;
+        display: flex;
+        // gap: 20px;
+        li{
+            list-style: none;
+            font-weight: 550;
+            margin-bottom: 15px;
+        }
+    }
+
+}

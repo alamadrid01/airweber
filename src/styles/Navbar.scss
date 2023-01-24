@@ -1,0 +1,28 @@
+nav{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    .left{
+        // margin-left: 40px;
+        // display: flex;
+        // background: blue;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .right{
+        display: flex;
+        ul{
+            display: flex;
+            gap: 10px;
+
+            li{
+                list-style: none;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
