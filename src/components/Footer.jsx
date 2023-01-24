@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Footer.scss"
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -8,7 +9,7 @@ function Footer() {
                 <li>Home</li>
                 <li>Our Story</li>
                 <li>Services</li>
-                <li>Contact Us</li>
+                <li><Link to="/contact">Contact Us</Link></li>
             </ul>
             <span>© 2022 All Rights Reserved</span>
         </footer>
