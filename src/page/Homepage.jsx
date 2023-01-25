@@ -1,12 +1,24 @@
 import React from 'react'
 import "../styles/Homepage.scss"
 import picture from "../assets/react.svg";
+import travel from "../assets/travel.jpg"
+import digital from "../assets/digital.jpg"
+import estate from "../assets/estate.jpg"
+import island from "../assets/island.jpg"
+import first from "../assets/first.png"
+import second from "../assets/second.png"
+import fourth from "../assets/fourth.png"
+import ballon from "../assets/ballon.jpg"
+
 
 function Homepage() {
     return (
         <>
             <div className='homepage'>
-                <h1>Need to be somewhere?We make it BREEZY</h1>
+               
+            </div>
+            <div className="hero">
+            <h1>Need to be somewhere?We make it BREEZY</h1>
                 <p>Your one-stop travel agency, real estate agency and digital marketing company. We help you to plan your trip, find the right hotel, or buy a property online. For your business we help with all your marketing needs so you can focus on doing what you do best.</p>
                 <button>Contact Us</button>
             </div>
@@ -15,17 +27,17 @@ function Homepage() {
                 <span>We're here to help you travel the world, make money trading real estate and get your website at the top of the search engines.</span>
                 <div className="whole">
                     <div className="card">
-                        <img src="" alt="" />
+                        <img src={travel} alt="" />
                         <h5>Travel</h5>
                         <p>Feel the exhilarating air of freedom, travel the world with great adventure, escape the bureauCRAZY, Combining modern technology, and old-fashioned service we ensure every trip is special</p>
                     </div>
                     <div className="card">
-                        <img src="" alt="" />
+                        <img src={estate} alt="" />
                         <h5>Real Estate</h5>
                         <p>Join the Elite in owning Global Real Estate, @ Airweber, you enjoy hidden benefits and profitable opportunities. Let your Real Estate project create the lifestyle of Freedom and Luxury you've always wanted, not just for you alone, your family included</p>
                     </div>
                     <div className="card">
-                        <img src="" alt="" />
+                        <img src={digital} alt="" />
                         <h5>Digital Services</h5>
                         <p>We get it. You're a busy person and you don't have time to worry about your business. Let us handle it for you. Services to boost your business ranging from online advertising, web design, brand/product launch & design, copywriting, video creation and animation, model design. Absolutely any digital service to get your business thriving even on auto-pilot</p>
                     </div>
@@ -55,7 +67,7 @@ function Homepage() {
             </div>
             <div className="about">
                 <div className="left">
-                    <img src="" alt="" />
+                    <img src={island} alt="" />
                 </div>
                 <div className="right">
                     <h2>About AIRWEBER</h2>
@@ -70,21 +82,21 @@ function Homepage() {
                     <div className="card">
                         <p>“If you are looking to improve your business or even start a new one, you should call AIRWEBER. From marketing, to travel agency, they have it all and make it easy to sell."</p>
                         <div className="hold">
-                            <img src={picture} alt="" />
+                            <img src={first} alt="" />
                             <span>Shelby Summers - Summer Aesthetics</span>
                         </div>
                     </div>
                     <div className="card">
                         <p>“AirWeber has always been my 'go-to' hub Airweber for many years, for the best customer service, innovative ideas, travel, and hotel bookings. They make it so easier for me to earn, travel, and implement my ideas In mark time”</p>
                         <div className="hold">
-                            <img src={picture} alt="" />
+                            <img src={second} alt="" />
                             <span>Mr. Iloba - Lobzy Empire</span>
                         </div>
                     </div>
                     <div className="card">
                         <p>“I am using the travel agency and they help me to book my flights and hotels. I own a few rental properties, and they are helping me get more clients and make more money than I thought possible!</p>
                         <div className="hold">
-                            <img src={picture} alt="" />
+                            <img src={fourth} alt="" />
                             <span>Yan Tone - Tone Wow Trader</span>
                         </div>
                     </div>
@@ -99,10 +111,10 @@ function Homepage() {
                     Believe it’s high-time your money works for you? While you go on that vacation and experience true freedom?
                 </p>
                 <p>Hit the button below now…</p>
-                <button>Contatc Us</button>
+                <button>Contact Us</button>
                 </div>
                 <div className="right">
-                    <img src="" alt="" />
+                    <img src={ballon} alt="" />
                 </div>
             </div>
         </>

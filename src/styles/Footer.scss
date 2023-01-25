@@ -9,12 +9,18 @@ footer{
     padding: 50px 0 ;
     ul{
         max-width: 500px;
+        gap: 30px;
         display: flex;
         // gap: 20px;
         li{
             list-style: none;
-            font-weight: 550;
             margin-bottom: 15px;
+
+            .Link{
+                font-weight: 550;
+                text-decoration: none;
+                color: black;
+            }
         }
     }
 
