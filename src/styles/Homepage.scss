@@ -123,6 +123,14 @@
         gap: 20px;
         margin-top: 60px;
 
+        hr{
+            border: none;
+            border-bottom: 4px solid rgba(183, 189, 190, 0.575);
+            border-radius: 20px;
+            width: 60%;
+            margin-bottom: 5px;
+        }
+
         .card{
             height: 300px;
             display: flex;
