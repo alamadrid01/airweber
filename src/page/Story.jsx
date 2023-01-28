@@ -95,6 +95,12 @@ function Story() {
                     </div>
                 </div>
             </div>
+            <div className="last">
+                <h2>What more are you waiting for?</h2>
+                <p>Join The Elite In Owning Global Real Estate, @ Airweber, You Enjoy Hidden Benefits And Profitable Opportunities. Let Your Real Estate Project Create The Lifestyle Of Freedom And Luxury You’ve Always Wanted, Not Just For You Alone, Your Family Included </p>
+                <p>Imagine Having The Freedom To Do As You Please, Unguided By The Bureaucracy Of Governments That Want To Control You. With Global Real Estate, Freedom Is Exactly What You Can Achieve. We’ll Guide You Through This Exciting Journey And Show You All The Benefits Of Owning Global Real Estate. You Don’t Need To Be An Expert In Real Estate Or Finance</p>
+                <button onClick={() => Navigate("/contact")}>Contact Us</button>
+            </div>
         </div>
     </div>
   )

@@ -7,7 +7,7 @@
 
     .Sections{
         display: flex;
-        gap: 30px;
+        gap: 50px;
         margin-bottom: 96px;
 
         .left{
@@ -21,6 +21,7 @@
         .right{
             flex: 4;
             display: flex;
+            text-align: left;
             flex-direction: column;
             gap: 30px;
 
@@ -38,6 +39,7 @@
             flex: 5;
             display: flex;
             flex-direction: column;
+            text-align: left;
             justify-content: center;
             align-items: center;
             gap: 30px;
@@ -73,6 +75,36 @@
                     // height: 300px;
                     object-fit: cover;
                 }
+            }
+        }
+    }
+    .last{
+        // background-image: url("../assets/island.jpg");
+        max-width: 50%;
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+
+        
+        h2{
+            font-size: 48px;
+            line-height: 1.3;
+        }
+        p{
+            line-height: 1.5;
+        }
+        button{
+            margin-top: 20px;
+            max-width: 20%;
+            background: rgb(40, 66, 114);
+            border: 1px solid rgb(40, 66, 114);
+            color: white;
+            
+    
+            &:hover{
+                color: rgb(40, 66, 114);
+                background: white;
+                border: 1px solid rgb(40, 66, 114);
             }
         }
     }

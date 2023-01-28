@@ -9,9 +9,11 @@ import first from "../assets/first.png"
 import second from "../assets/second.png"
 import fourth from "../assets/fourth.png"
 import ballon from "../assets/ballon.jpg"
+import { useNavigate } from 'react-router-dom';
 
 
 function Homepage() {
+    const Navigate = useNavigate()
     return (
         <>
             <div className='homepage'>
@@ -20,7 +22,7 @@ function Homepage() {
             <div className="hero">
             <h1>Need to be somewhere?We make it BREEZY</h1>
                 <p>Your one-stop travel agency, real estate agency and digital marketing company. We help you to plan your trip, find the right hotel, or buy a property online. For your business we help with all your marketing needs so you can focus on doing what you do best.</p>
-                <button>Contact Us</button>
+                <button onClick={() => Navigate("/contact")}>Contact Us</button>
             </div>
             <div className="services">
                 <h2>Our Services</h2>
