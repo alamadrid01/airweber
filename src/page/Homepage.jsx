@@ -15,7 +15,8 @@ import { useNavigate } from 'react-router-dom';
 function Homepage() {
     const Navigate = useNavigate()
     return (
-        <>
+        <div className="home-holder">
+            <div className="hero-holder">
             <div className='homepage'>
                
             </div>
@@ -23,6 +24,7 @@ function Homepage() {
             <h1>Need to be somewhere?We make it BREEZY</h1>
                 <p>Your one-stop travel agency, real estate agency and digital marketing company. We help you to plan your trip, find the right hotel, or buy a property online. For your business we help with all your marketing needs so you can focus on doing what you do best.</p>
                 <button onClick={() => Navigate("/contact")}>Contact Us</button>
+            </div>
             </div>
             <div className="services">
                 <h2>Our Services</h2>
@@ -119,7 +121,7 @@ function Homepage() {
                     <img src={ballon} alt="" />
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -36,7 +36,7 @@
 }
 .hero{
     position: absolute;
-    bottom: 6rem;
+    // top: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@
     }
 }
 .services{
-    padding: 0 20px;
+    padding: 0 30px;
     margin-top: 96px;
     h2{
         font-size: 48px;
@@ -76,6 +76,7 @@
     }
     span{
         font-size: 24px;
+        line-height: 1.4;
     }
     .whole{
         display: flex;
@@ -86,12 +87,14 @@
             border-radius: 10px;
         }
         h5{
+            margin-top: 10px;
             font-size: 24px;
             margin-bottom: 20px;
         }
         p{
             font-size: 16px;
             font-weight: 200;
+            line-height: 1.5;
         }
        
       }
@@ -150,6 +153,8 @@
     margin-top: 96px;
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
     .right{
         display: flex;
         flex-direction: column;
@@ -174,6 +179,7 @@
     h2{
         font-size: 58px;
         margin-bottom: 20px;
+        line-height: 1.4;
     }
     .whole{
         display: flex;
@@ -233,6 +239,102 @@
             max-width: 100%;
             height: 600px;
             object-fit: cover;
+        }
+    }
+}
+.home-holder{
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hero-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width: '1000px'){
+    .homepage{
+        height: 50vh;
+    }
+
+}
+@media(max-width: '900px'){
+    .hero{
+        h1{
+            font-size: 48px;
+        }
+        button{
+            max-width: 60%;
+        }
+    }
+    .services{
+        .whole{
+            flex-wrap: wrap;
+        }
+        button{
+            max-width: 60%;
+        }
+    }
+    .choose{
+        h2{
+            line-height: 1.2;
+        }
+        .whole{
+            flex-direction: column;
+        }
+    }
+    .about, .want{
+        flex-direction: column;
+        .left{
+            img{
+                max-width: 100%;
+            }
+            button{
+                max-width: 60%;
+            }
+        }
+        .right{
+            h2{
+                font-size: 40px;
+                text-align: center;
+                max-width: 100%;
+            }
+            img{
+                max-width: 100%;
+            }
+
+        }
+    }
+}
+@media(max-width: '500px'){
+    .hero{
+        p{
+            display: none;
+        }
+    }
+}
+@media(max-width: '768px'){
+    .testimony{
+        .whole{
+            flex-direction: column;
+        }
+    }
+}
+@media(min-width: '900px'){
+    .about{
+        .left{
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .about, .want{
+        .right{
+            img{
+                max-width: 100%;
+            }
+
         }
     }
 }
