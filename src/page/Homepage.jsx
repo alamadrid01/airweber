@@ -26,6 +26,7 @@ function Homepage() {
                 <button onClick={() => Navigate("/contact")}>Contact Us</button>
             </div>
             </div>
+            <div className="section-holder">
             <div className="services">
                 <h2>Our Services</h2>
                 <span>We're here to help you travel the world, make money trading real estate and get your website at the top of the search engines.</span>
@@ -120,6 +121,7 @@ function Homepage() {
                 <div className="right">
                     <img src={ballon} alt="" />
                 </div>
+            </div>
             </div>
         </div>
     )

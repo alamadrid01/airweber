@@ -12,7 +12,6 @@
     filter: blur(2px);
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
 
     h1{
         font-size: 65px;
@@ -68,7 +67,6 @@
     }
 }
 .services{
-    padding: 0 30px;
     margin-top: 96px;
     h2{
         font-size: 48px;
@@ -115,7 +113,7 @@
     }
 }
 .choose{
-    padding: 0 30px;
+    
     margin-top: 96px;
     h2{
         font-size: 48px;
@@ -149,7 +147,6 @@
     }
 }
 .about{
-    padding: 0 20px;
     margin-top: 96px;
     display: flex;
     gap: 30px;
@@ -174,7 +171,6 @@
     }
 }
 .testimony{
-    padding: 0 20px;
     margin-top: 96px;
     h2{
         font-size: 58px;
@@ -205,7 +201,6 @@
 }
 .want{
     display: flex;
-    padding: 0 30px;
     margin-top: 96px;
     gap: 30px;
     text-align: left;
@@ -246,6 +241,9 @@
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
+}
+.section-holder{
+    padding: 0 30px;
 }
 .hero-holder{
     display: flex;
