@@ -4,6 +4,8 @@ import picture from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const [open, setOpen] = React.useState(false)
+  console.log(open)
   return (
     <div>
       <nav>
@@ -35,6 +37,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          <button onClick={() => setOpen(!open)}>Test</button>
         </div>
       </nav>
     </div>

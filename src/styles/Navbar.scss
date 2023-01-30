@@ -1,6 +1,7 @@
 nav{
     background: #fff;
     display: flex;
+    position: relative;
     justify-content: space-between;
     padding: 0 30px;
     align-items: center;
@@ -34,6 +35,21 @@ nav{
                         border-bottom: 2px solid rgb(38, 140, 224);
                     }
                 }
+            }
+        }
+        button{
+            display: none;
+        }
+    }
+}
+@media(max-width: '768px'){
+    nav{
+        .right{
+            ul{
+                display: none;
+            }
+            button{
+                display: flex;
             }
         }
     }
