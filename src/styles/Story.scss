@@ -129,9 +129,18 @@
 }
 @media(max-width: '500px'){
     .story{
+       
+        .Sections{
+            .right{
+                h1{
+                    font-size: 42px;
+                }
+            }
+        }
         .section{
             .right{
                 flex-direction: column ;
+                
             }
         }
     }

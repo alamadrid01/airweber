@@ -47,7 +47,7 @@ function Homepage() {
                         <p>We get it. You're a busy person and you don't have time to worry about your business. Let us handle it for you. Services to boost your business ranging from online advertising, web design, brand/product launch & design, copywriting, video creation and animation, model design. Absolutely any digital service to get your business thriving even on auto-pilot</p>
                     </div>
                 </div>
-                <button>View All Services</button>
+                <button onClick={() => Navigate("/services")} >View All Services</button>
             </div>
             <div className="choose">
                 <h2>Why Choose Us</h2>
@@ -78,7 +78,7 @@ function Homepage() {
                     <h2>About AIRWEBER</h2>
                     <p>The world is your oyster.</p>
                     <p>We’re here to help you travel the world, make money selling real estate and get your website to the top of the search engines</p>
-                    <span>Our Story</span>
+                    <span onClick={() => Navigate("/our-story")}>Our Story</span>
                 </div>
             </div>
             <div className="testimony">
@@ -116,7 +116,7 @@ function Homepage() {
                     Believe it’s high-time your money works for you? While you go on that vacation and experience true freedom?
                 </p>
                 <p>Hit the button below now…</p>
-                <button>Contact Us</button>
+                <button onClick={() => Navigate("/contact")}>Contact Us</button>
                 </div>
                 <div className="right">
                     <img src={ballon} alt="" />

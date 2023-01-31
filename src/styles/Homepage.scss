@@ -166,6 +166,7 @@
         }
         span{
             text-decoration: underline;
+            cursor: pointer;
             
         }
     }
@@ -306,6 +307,7 @@
     }
 }
 @media(max-width: '500px'){
+        
     .hero{
         p{
             display: none;
@@ -313,7 +315,12 @@
     }
 }
 @media(max-width: '768px'){
+    
     .testimony{
+        h2{
+                font-size: 42px;
+
+        }
         .whole{
             flex-direction: column;
         }
