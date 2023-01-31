@@ -80,9 +80,7 @@
         display: flex;
 
       .card{
-        padding: 2rem 0;
         img{
-            max-width: 100%;
             width: 100%;
             border-radius: 10px;
         }
@@ -280,6 +278,14 @@
         .whole{
             margin-top: 25px;
             flex-wrap: wrap;
+
+            .card{
+                padding: 2rem 0;
+                img{
+                    max-width: 100%;
+                    width: 100%;
+                }
+            }
         }
         button{
             margin-top: 25px;
