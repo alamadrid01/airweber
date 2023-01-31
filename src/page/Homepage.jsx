@@ -54,18 +54,22 @@ function Homepage() {
                 <div className="whole">
                     <div className="card">
                         <h5>Tour & Earn</h5>
+                        <hr />
                         <p>Tour the World while your business runs on auto-pilot</p>
                     </div>
                     <div className="card">
                         <h5>Dual Citizenship</h5>
+                        <hr />
                         <p>Place the world at the palm of your hands, with Multiple-citizenship</p>
                     </div>
                     <div className="card">
                         <h5>Creative Marketing</h5>
+                        <hr />
                         <p>Creative professional services, to Set your business at the center</p>
                     </div>
                     <div className="card">
                         <h5>Travel Processing</h5>
+                        <hr />
                         <p>Travel Booking, Study visa, Travel documents, Travel research</p>
                     </div>
                 </div>
