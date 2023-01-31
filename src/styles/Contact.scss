@@ -22,12 +22,15 @@
             color: white;
             font-size: 60px;
         }
+        p{
+            color: white;
+        }
         .icon{
             display: flex;
             gap: 10px;
             
             .holder{
-                background: blue;
+                background: rgb(42, 42, 68);
                 width: 60px;
                 height: 60px;
                 display: flex;

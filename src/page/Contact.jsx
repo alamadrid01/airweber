@@ -1,6 +1,8 @@
 import React from 'react'
 import "../styles/Contact.scss"
-import picture from "../assets/whatsap.svg"
+import Whatsapp from "../assets/whatsap.svg"
+import Instagram from "../assets/instagram.svg"
+import Facebook from "../assets/facebook.svg"
 
 function Contact() {
   return (
@@ -12,16 +14,16 @@ function Contact() {
         <p>Feel free to reach out using the details below.</p>
         <div className="icon">
           <div className="holder">
-            <img src={picture} alt="icon" />
+            <img src={Whatsapp} alt="icon" />
           </div>
           <div className="holder">
-            <img src={picture} alt="icon" />
+            <img src={Instagram} alt="icon" />
           </div>
           <div className="holder">
-            <img src={picture} alt="icon" />
+            <img src={Whatsapp} alt="icon" />
           </div>
           <div className="holder">
-            <img src={picture} alt="icon" />
+            <img src={Facebook} alt="icon" />
           </div>
         </div>
         </div>
