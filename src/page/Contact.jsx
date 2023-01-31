@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Contact.scss"
-import picture from "../assets/react.svg"
+import picture from "../assets/whatsap.svg"
 
 function Contact() {
   return (
