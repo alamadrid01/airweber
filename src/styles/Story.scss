@@ -90,18 +90,20 @@
         background-size: cover;
         background-position: center;
         height: 40vh;
-
+        margin-bottom: 100px;
         
         h2{
             font-size: 48px;
             line-height: 1.3;
         }
         p{
+            margin-top: 20px;
             line-height: 1.5;
+            text-align: left;
         }
         button{
             margin-top: 20px;
-            max-width: 20%;
+            max-width: 40%;
             background: rgb(40, 66, 114);
             border: 1px solid rgb(40, 66, 114);
             color: white;
@@ -120,16 +122,22 @@
         .Sections, .section{
             flex-direction: column ;
         }
-    }
-    .last{
-        h2{
-            font-size: 40px;
+        .last{
+            h2{
+                font-size: 38px;
+            }
         }
     }
 }
 @media(max-width: '500px'){
     .story{
-       
+        .last{
+           max-width: 100%;
+
+           button{
+            max-width: 60%;
+           }
+        }
         .Sections{
             .right{
                 h1{
