@@ -2,10 +2,12 @@ import React from "react";
 import "../styles/Navbar.scss";
 import picture from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import Bar from "../assets/bar.svg"
+import Close from "../assets/close.png"
 
 function Navbar() {
   const [open, setOpen] = React.useState(false)
-  console.log(open)
+  // console.log(open)
   return (
     <div>
       <nav>
@@ -15,7 +17,7 @@ function Navbar() {
           </Link>
         </div>
         <div className="right">
-          <ul>
+          <ul style={{ display: `${open ?'flex': 'none'} `}}>
             <li>
               <Link className="Link" to="/">
                 Home
@@ -37,7 +39,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <button onClick={() => setOpen(!open)}>Test</button>
+          <button onClick={() => setOpen(!open)}><img src={`${open ? Close : Bar}`} alt="bar"/></button>
         </div>
       </nav>
     </div>

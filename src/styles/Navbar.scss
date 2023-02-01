@@ -46,7 +46,15 @@ nav{
     nav{
         .right{
             ul{
-                display: none;
+                background: white;
+                width: 100%;
+                left: 0;
+                padding: 30px ;
+                flex-direction: column;
+                position: absolute;
+                z-index: 2;
+                top: 5rem;
+                align-items: flex-start;
             }
             button{
                 display: flex;
