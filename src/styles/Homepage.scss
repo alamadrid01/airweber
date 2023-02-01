@@ -275,10 +275,12 @@
         }
     }
     .services{
+        span{
+            font-size: 20px;
+        }
         .whole{
             margin-top: 25px;
             flex-wrap: wrap;
-
             .card{
                 padding: 2rem 0;
                 img{
@@ -307,7 +309,7 @@
                 max-width: 100%;
             }
             button{
-                max-width: 60%;
+                max-width: 40%;
             }
         }
         .right{

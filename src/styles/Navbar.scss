@@ -59,6 +59,11 @@ nav{
             button{
                 background: transparent ;
                 display: flex;
+
+                &:focus{
+                    outline: none;
+                    border: none;
+                }
             }
         }
     }
