@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/Homepage.scss"
-import picture from "../assets/react.svg";
 import travel from "../assets/travel.jpg"
 import digital from "../assets/digital.jpg"
 import estate from "../assets/estate.jpg"
@@ -9,6 +8,8 @@ import first from "../assets/first.png"
 import second from "../assets/second.png"
 import fourth from "../assets/fourth.png"
 import ballon from "../assets/ballon.jpg"
+import Up from "../assets/2.svg"
+import Bottom from "../assets/1.svg"
 import { useNavigate } from 'react-router-dom';
 
 
@@ -89,21 +90,21 @@ function Homepage() {
                 <h2>Client Testimonials</h2>
                 <div className="whole">
                     <div className="card">
-                        <p>“If you are looking to improve your business or even start a new one, you should call AIRWEBER. From marketing, to travel agency, they have it all and make it easy to sell."</p>
+                        <p><span><img src={Bottom} alt="quote-icon" /></span>If you are looking to improve your business or even start a new one, you should call AIRWEBER. From marketing, to travel agency, they have it all and make it easy to sell.<span><img src={Up} alt="quote-icon" /></span></p>
                         <div className="hold">
                             <img src={first} alt="" />
                             <span>Shelby Summers - Summer Aesthetics</span>
                         </div>
                     </div>
                     <div className="card">
-                        <p>“AirWeber has always been my 'go-to' hub Airweber for many years, for the best customer service, innovative ideas, travel, and hotel bookings. They make it so easier for me to earn, travel, and implement my ideas In mark time”</p>
+                        <p><span><img src={Bottom} alt="quote-icon" /></span>AirWeber has always been my 'go-to' hub Airweber for many years, for the best customer service, innovative ideas, travel, and hotel bookings. They make it so easier for me to earn, travel, and implement my ideas In mark time<span><img src={Up} alt="quote-icon" /></span></p>
                         <div className="hold">
                             <img src={second} alt="" />
                             <span>Mr. Iloba - Lobzy Empire</span>
                         </div>
                     </div>
                     <div className="card">
-                        <p>“I am using the travel agency and they help me to book my flights and hotels. I own a few rental properties, and they are helping me get more clients and make more money than I thought possible!</p>
+                        <p><span><img src={Bottom} alt="quote-icon" /></span>I am using the travel agency and they help me to book my flights and hotels. I own a few rental properties, and they are helping me get more clients and make more money than I thought possible!<span><img src={Up} alt="quote-icon" /></span></p>
                         <div className="hold">
                             <img src={fourth} alt="" />
                             <span>Yan Tone - Tone Wow Trader</span>
