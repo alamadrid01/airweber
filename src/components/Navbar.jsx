@@ -7,7 +7,13 @@ import Close from "../assets/close.png"
 
 function Navbar() {
   const [open, setOpen] = React.useState(false)
-  // console.log(open)
+  const [matches, setMatches] = React.useState(window.matchMedia("(max-width: 768px").matches)
+
+  React.useEffect(() =>{
+    window.matchMedia("(max-width: 768px)").addEventListener('change', (e) => setMatches(e.matches))
+  }, [])
+
+
   return (
     <div>
       <nav>
@@ -17,7 +23,11 @@ function Navbar() {
           </Link>
         </div>
         <div className="right">
-          <ul style={{ display: `${open ?'flex': 'none'} `}}>
+          {
+            matches ?
+            <>
+            <button onClick={() => setOpen(!open)}><img src={`${open ? Close : Bar}`} alt="bar"/></button>
+            <ul style={{ display: `${open ? 'flex' : 'none'} `}}>
             <li>
               <Link className="Link" to="/">
                 Home
@@ -38,8 +48,32 @@ function Navbar() {
                 Contact Us
               </Link>
             </li>
-          </ul>
-          <button onClick={() => setOpen(!open)}><img src={`${open ? Close : Bar}`} alt="bar"/></button>
+          </ul> 
+          </>
+            :
+            <ul style={{ display: `${open ? 'none' : 'flex'} `}}>
+            <li>
+              <Link className="Link" to="/">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="Link" to="/our-story">
+                Our Story
+              </Link>
+            </li>
+            <li>
+              <Link className="Link" to="/services">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link className="Link" to="/contact">
+                Contact Us
+              </Link>
+            </li>
+          </ul> 
+          }
         </div>
       </nav>
     </div>
