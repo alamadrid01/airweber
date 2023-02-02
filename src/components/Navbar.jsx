@@ -29,22 +29,22 @@ function Navbar() {
             <button onClick={() => setOpen(!open)}><img src={`${open ? Close : Bar}`} alt="bar"/></button>
             <ul style={{ display: `${open ? 'flex' : 'none'} `}}>
             <li>
-              <Link className="Link" to="/">
+              <Link className="Link" to="/" onClick={() => setOpen(!open)}>
                 Home
               </Link>
             </li>
             <li>
-              <Link className="Link" to="/our-story">
+              <Link className="Link" to="/our-story" onClick={() => setOpen(!open)}>
                 Our Story
               </Link>
             </li>
             <li>
-              <Link className="Link" to="/services">
+              <Link className="Link" to="/services" onClick={() => setOpen(!open)}>
                 Services
               </Link>
             </li>
             <li>
-              <Link className="Link" to="/contact">
+              <Link className="Link" to="/contact" onClick={() => setOpen(!open)}>
                 Contact Us
               </Link>
             </li>
