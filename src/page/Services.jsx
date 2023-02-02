@@ -1,6 +1,12 @@
 import React from 'react'
 import "../styles/Services.scss"
 import Camera from "../assets/camera.jpg"
+import Visa from "../assets/visa.jpg"
+import Tourist from "../assets/tourist.jpg"
+import Estate from "../assets/real.jpg"
+import Marketing from "../assets/marketing.jpg"
+import Purchase from "../assets/key.jpg"
+
 
 function Services() {
   return (
@@ -21,7 +27,7 @@ function Services() {
             </div>
             <div className="section-holder">
             <div className="third">
-              <img src={Camera} alt="" />
+              <img src={Visa} alt="" />
             </div>
             <div className="fourth">
               <h2>Dual Citizenship</h2>
@@ -32,7 +38,7 @@ function Services() {
         </section>
         <section>
           <div className="first">
-            <img src={Camera} alt="" />
+            <img src={Tourist} alt="" />
           </div>
           <div className="second">
             <h2>Tours & Tourism</h2>
@@ -41,7 +47,7 @@ function Services() {
           </div>
           <div className="third">
             <h2>Real Estate</h2>
-            <img src={Camera} alt="" />
+            <img src={Estate} alt="" />
           </div>
           <div className="fourth">
             <h3>Investment</h3>
@@ -52,7 +58,7 @@ function Services() {
         <h2 className='digital'>Digital Services</h2>
         <section>
         <div className="first">
-          <img src={Camera} alt="" />
+          <img src={Marketing} alt="" />
         </div>
         <div className="second">
           <h3>Digital Marketing</h3>
@@ -60,7 +66,7 @@ function Services() {
           <p>Get your business before the eyes of “your” customers, refine your product, enhance your brand, through social media, web design, digital advertising, video marketing and more. Don’t settle for less. Let us help you grow your business with innovative digital marketing strategies</p>
         </div>
         <div className="third">
-          <img src={Camera} alt="" />
+          <img src={Purchase} alt="" />
         </div>
         <div className="fourth">
           <h3>Purchase</h3>
